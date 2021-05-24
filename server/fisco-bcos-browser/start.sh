@@ -1,9 +1,11 @@
 #!/bin/bash
 
 APP_MAIN=org.bcos.browser.Application
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home
 CLASSPATH='conf/:apps/*:lib/*'
 CURRENT_DIR=`pwd`
 LOG_DIR=${CURRENT_DIR}/log
+echo $JAVA_HOME
 
 if [ ! -d "log" ]; then
     mkdir -p log

@@ -1,0 +1,5 @@
+
+server/fisco-bcos-browser/bin/**
+**/build/**
+**/dist/**
+**/.gradle/**

@@ -1,6 +1,7 @@
 #!/bin/bash
 
 APP_MAIN=org.bcos.browser.Application
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home
 tradePortalPID=0
 getTradeProtalPID(){
     javaps=`$JAVA_HOME/bin/jps -l | grep $APP_MAIN`
